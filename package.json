@@ -9,11 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lite": "lite-server",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --prod",
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
   },
   "engines": {
-    "node": "10.14.2",
-      "npm": "6.4.1"
+    "node": "14.19.0",
+    "npm": "8.10.0"
   },
   "private": true,
   "dependencies": {
