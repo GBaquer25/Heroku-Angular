@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "lite": "lite-server",
     "postinstall": "ng build --prod",
-    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
+    "heroku-postbuild": "ng build --prod"
   },
   "engines": {
     "node": "14.19.0",
